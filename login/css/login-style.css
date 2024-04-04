@@ -30,7 +30,7 @@ main{
 }
 
 .right {
-  background-color: rgb(112, 200, 241);
+  background-color: #62a8e9;
   display: flex;
   justify-content: center;
   align-items: center;
