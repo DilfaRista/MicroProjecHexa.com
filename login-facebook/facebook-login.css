@@ -1,0 +1,279 @@
+/* .c_facebook-login-frame {
+  width: 100%;
+  overflow: hidden;
+  max-width: 1440px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: linear-gradient(-146deg,#0075ff 0,#18396080 100%);
+}
+
+.c_facebook-login-rectangle,
+.c_facebook-login-rectangle1 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  max-width: 1440px;
+}
+
+.c_facebook-login-rectangle1 {
+  max-width: 705px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.c_facebook-login-rectangle2,
+.c_facebook-login-rectangle3 {
+  border-top: 1px solid #fff;
+  max-height: 74px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.c_facebook-login-rectangle2,
+.c_facebook-login-rectangle3,
+.c_facebook-login-rectangle4,
+.c_facebook-login-rectangle5 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: block;
+  max-width: 541px;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.25),0 4px 4px 0 rgba(0,0,0,.25);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.c_facebook-login-text {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.c_facebook-login-text01 {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: justified;
+  font-family: "Inter",sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_facebook-login-text02 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.c_facebook-login-text03 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: justified;
+  font-family: "Inter",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_facebook-login-text04 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.c_facebook-login-text05 {
+  color: #f4f1f1;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: justified;
+  font-family: "Inter",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_facebook-login-text06 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.c_facebook-login-text07 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: justified;
+  font-family: "Inter",sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_facebook-login-text08 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.c_facebook-login-text09 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: justified;
+  font-family: "Inter",sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_facebook-login-text10 {
+  width: 100%;
+  max-width: 290px;
+  margin-top: 0;
+  min-height: 70px;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.c_facebook-login-text11 {
+  color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: justified;
+  font-family: "Inter",sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.c_facebook-login-text12 {
+  width: 100%;
+  max-width: auto;
+  margin-top: 0;
+  min-height: auto;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.c_facebook-login-text13 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: justified;
+  font-family: "Inter",sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  text-transform: none;
+} */
+/* ---- baru ----- */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(-145deg,#0075ff 0,#18396080 100%);
+}
+
+.login-frame {
+  position: relative;
+  width: 300px;
+  background-color: #fff; /* Background form login */
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1877f2; /* Warna tombol sesuai dengan background biru Facebook */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.forgot-password, .create-account {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.create-account {
+  font-weight: bold;
+}
