@@ -87,3 +87,39 @@ main form button[type="submit"] {
 main form button[type="submit"]:hover {
     background-color: #ddd;
 }
+
+main h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-view {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    width: 22%;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin: 0;
+}
+
+.card p {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
