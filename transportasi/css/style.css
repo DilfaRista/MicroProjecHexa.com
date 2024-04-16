@@ -1,0 +1,122 @@
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #007BFF; /* Warna latar belakang header */
+    color: #fff; 
+    padding: 10px; 
+  }
+  
+  /* Navigasi styling */
+  nav {
+    display: flex; /* Menggunakan flexbox untuk menata elemen navigasi */
+    align-items: center; /* Posisi elemen navigasi di tengah header */
+  }
+  
+  nav .logo {
+    margin-right: 20px; /* Meletakkan logo di sisi kiri */
+  }
+
+  nav .logo img {
+    width: 50px;
+  }
+  
+  nav form {
+    margin-right: auto; /* Meletakkan form pencarian di sisi kiri */
+  }
+  
+  nav input[type="search"] {
+    padding: 8px; /* Padding pada input search */
+    border-radius: 5px; /* Membuat sudut elemen input search menjadi melengkung */
+    border: none; /* Menghapus border */
+  }
+  
+  nav button[type="submit"] {
+    padding: 8px 16px; /* Padding pada tombol */
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: white; /* Warna teks pada tombol */
+    border: none; /* Menghapus border */
+    border-radius: 5px; /* Membuat sudut elemen tombol menjadi melengkung */
+    cursor: pointer; /* Mengubah kursor saat mengarah ke tombol */
+  }
+  
+  nav button[type="submit"]:hover {
+    background-color: #45a049; /* Efek hover pada tombol */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Menghilangkan bullet point dari daftar navigasi */
+    display: flex; /* Menggunakan flexbox untuk menata daftar navigasi */
+  }
+  
+  nav ul li {
+    margin-left: 20px; /* Mengatur jarak antar elemen daftar navigasi */
+  }
+  
+  nav ul li a {
+    color: #fff; /* Warna teks dari link navigasi */
+    text-decoration: none; /* Menghapus dekorasi link */
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline; /* Efek hover pada link navigasi */
+  }
+  
+  main{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 2rem;
+  }
+
+  main .card{
+    display: flex;
+    padding-bottom: 1rem;
+  }
+
+  main .card h2, main .card h3{
+    margin-left: 1rem;
+  }
+
+  main .card img{
+    width: 20rem;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  main .card p{
+    margin-left: 1rem;
+  }
+
+
+  footer {
+    background-color: #007BFF;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.footer-section {
+    text-align: left;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-content .p{
+    /* padding-left: 10rem; */
+}
+
+.footer-section p, .footer-section h3{
+    color: white;
+}
