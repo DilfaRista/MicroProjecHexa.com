@@ -182,6 +182,27 @@ main h2 {
     line-height: 1.5;
 }
 
+.cerita{
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.cerita .cerita1{
+    display: inline-block;
+    background-color: #007BFF;
+    margin-bottom: 2rem;
+    /* flex-direction: row; */
+}
+
+.cerita .cerita1 p{
+    padding-top: 0px;
+}
+
+.cerita .cerita1 img{
+    width: 20px;
+    height: 100%;
+}
+
 footer {
     background-color: #007BFF;
     color: white;
